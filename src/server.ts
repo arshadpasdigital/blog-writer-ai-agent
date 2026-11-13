@@ -12,7 +12,7 @@ async function initializeConnection() {
     try {
         console.info("Initializing database connections...");
 
-        await connectDatabase();
+        // await connectDatabase();
 
         console.info("All connections established successfully");
     } catch (error) {
@@ -28,7 +28,7 @@ async function initializeConnectionClose() {
     try {
         console.info("Initializing database connections...");
 
-        await closeDatabase();
+        // await closeDatabase();
 
         console.info("All connections established successfully");
     } catch (error) {
